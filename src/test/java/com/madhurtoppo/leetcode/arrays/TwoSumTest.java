@@ -10,7 +10,7 @@ class TwoSumTest {
     void brute() {
         TwoSum twoSum = new TwoSum();
 
-        int[] actual = twoSum.brute(new int[]{2,6,8,11}, 9);
+        int[] actual = twoSum.brute(new int[]{2,7,8,11}, 9);
         int[] expected = {0,1};
 
         assertArrayEquals(expected, actual);
@@ -20,8 +20,8 @@ class TwoSumTest {
     void onePass() {
         TwoSum twoSum = new TwoSum();
 
-        int[] actual = twoSum.onePass(new int[]{2,8,9,11}, 9);
-        int[] expected = new int[]{0,1};
+        int[] actual = twoSum.onePass(new int[]{2,8,7,11}, 9);
+        int[] expected = new int[]{0,2};
 
         assertArrayEquals(expected, actual);
     }
