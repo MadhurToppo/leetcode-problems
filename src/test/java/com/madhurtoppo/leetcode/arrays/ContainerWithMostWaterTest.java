@@ -1,23 +1,37 @@
 package com.madhurtoppo.leetcode.arrays;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class ContainerWithMostWaterTest {
 
-    @Test
-    void twoPointer() {
-        ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
+    private ContainerWithMostWater containerWithMostWater;
+    private int[] height;
 
-        int actual = containerWithMostWater.twoPointer(new int[]{1,8,6,2,5,4,8,3,7});
+    @BeforeEach
+    void setUp() {
+        containerWithMostWater = new ContainerWithMostWater();
+    }
+
+    @Test
+    void twoPointerTest1() {
+        height = new int[]{1,8,6,2,5,4,8,3,7};
+
+        int actual = containerWithMostWater.twoPointer(height);
         int expected = 49;
 
         assertEquals(expected, actual);
+    }
 
-        int actual2 = containerWithMostWater.twoPointer(new int[]{4,3,2,1,4});
-        int expected2 = 16;
+    @Test
+    void twoPointerTest2() {
+        height = new int[]{4,3,2,1,4};
 
-        assertEquals(expected2, actual2);
+        int actual = containerWithMostWater.twoPointer(height);
+        int expected = 16;
+
+        assertEquals(expected, actual);
     }
 }
