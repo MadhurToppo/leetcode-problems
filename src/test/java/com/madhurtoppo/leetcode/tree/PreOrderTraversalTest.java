@@ -10,23 +10,28 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BinaryTreeTraversalTest {
+class PreOrderTraversalTest {
 
-    private static BinaryTreeTraversal.preOrder preOrder;
+    private static PreOrderTraversal.Recursive recursive;
+    private static PreOrderTraversal.Iterative iterative;
+
     private static TreeNode root;
+
     private static List<Integer> actual;
+    private static List<Integer> expected;
 
     @BeforeAll
     public static void setup() {
-        preOrder = new BinaryTreeTraversal.preOrder();
+        recursive = new PreOrderTraversal.Recursive();
+        iterative = new PreOrderTraversal.Iterative();
     }
 
     @Test
     void recursive() {
         root = TreeUtils.constructBinaryTree(Arrays.asList(3, 1, null, null, 5, 2, null, null, 4));
 
-        actual = preOrder.recursive(root);
-        List<Integer> expected = Arrays.asList(3, 1, 5, 2, 4);
+        actual = recursive.preOrder(root);
+        expected = Arrays.asList(3, 1, 5, 2, 4);
 
         assertEquals(expected, actual);
     }
@@ -35,8 +40,8 @@ class BinaryTreeTraversalTest {
     void iterative() {
         root =  TreeUtils.constructBinaryTree(Arrays.asList(1, 2, 3, 4, null, 5, 6, null, 7, null, null, null, null, 8, 9));
 
-        actual = preOrder.iterative(root);
-        List<Integer> expected = Arrays.asList(1, 2, 4, 7, 8, 9, 3, 5, 6);
+        actual = iterative.preOrder(root);
+        expected = Arrays.asList(1, 2, 4, 7, 8, 9, 3, 5, 6);
 
         assertEquals(actual, expected);
     }
