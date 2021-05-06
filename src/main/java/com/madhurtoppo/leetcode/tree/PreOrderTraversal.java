@@ -11,21 +11,21 @@ public class PreOrderTraversal {
     public static class Recursive {
 
         public List<Integer> preOrder(TreeNode root) {
-            List<Integer> nodeValues = new ArrayList<>();
-            return helper(root, nodeValues);
+            List<Integer> values = new ArrayList<>();
+            return helper(root, values);
         }
 
-        private List<Integer> helper(TreeNode root, List<Integer> nodeValues) {
+        private List<Integer> helper(TreeNode root, List<Integer> values) {
             if (root == null) {
-                return nodeValues;
+                return values;
             }
 
-            nodeValues.add(root.val);
+            values.add(root.val);
 
-            helper(root.left, nodeValues);
-            helper(root.right, nodeValues);
+            helper(root.left, values);
+            helper(root.right, values);
 
-            return nodeValues;
+            return values;
         }
     }
 
@@ -33,27 +33,30 @@ public class PreOrderTraversal {
 
         public List<Integer> preOrder(TreeNode root) {
 
-            List<Integer> nodeValues = new ArrayList<>();
+            List<Integer> values = new ArrayList<>();
 
             if (root == null) {
-                return nodeValues;
+                return values;
             }
 
             Stack<TreeNode> nodes = new Stack<>();
             nodes.push(root);
 
             while (!nodes.isEmpty()) {
-                TreeNode current = nodes.pop();
 
-                if (current != null) {
-                    nodeValues.add(current.val);
+                TreeNode node = nodes.pop();
+                values.add(node.val);
 
-                    nodes.push(current.right);
-                    nodes.push(current.left);
+                if (node.right != null) {
+                    nodes.push(node.right);
+                }
+
+                if (node.left != null) {
+                    nodes.push(node.left);
                 }
             }
 
-            return nodeValues;
+            return values;
         }
     }
 

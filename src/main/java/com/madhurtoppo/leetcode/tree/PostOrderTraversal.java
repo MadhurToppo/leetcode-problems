@@ -11,47 +11,50 @@ public class PostOrderTraversal {
     public static class Recursive {
 
         public List<Integer> postOrder(TreeNode root) {
-            ArrayList<Integer> nodeValues = new ArrayList<>();
-            return helper(root, nodeValues);
+            ArrayList<Integer> values = new ArrayList<>();
+            return helper(root, values);
         }
 
-        private List<Integer> helper(TreeNode root, List<Integer> nodeValues) {
+        private List<Integer> helper(TreeNode root, List<Integer> values) {
             if (root == null) {
-                return nodeValues;
+                return values;
             }
 
-            helper(root.left, nodeValues);
-            helper(root.right, nodeValues);
-            nodeValues.add(root.val);
+            helper(root.left, values);
+            helper(root.right, values);
+            values.add(root.val);
 
-            return nodeValues;
+            return values;
         }
     }
 
     public static class Iterative {
 
         public List<Integer> postOrder(TreeNode root) {
-            ArrayList<Integer> nodeValues = new ArrayList<>();
+            ArrayList<Integer> values = new ArrayList<>();
 
             if (root == null) {
-                return nodeValues;
+                return values;
             }
 
             Stack<TreeNode> nodes = new Stack<>();
             nodes.push(root);
 
             while (!nodes.isEmpty()) {
-                TreeNode current = nodes.pop();
 
-                if (current != null) {
-                    nodes.push(current.left);
+                TreeNode node = nodes.pop();
+                values.add(0, node.val);
 
-                    nodes.push(current.right);
-                    nodeValues.add(0, current.val);
+                if (node.left != null) {
+                    nodes.push(node.left);
+                }
+
+                if (node.right != null) {
+                    nodes.push(node.right);
                 }
             }
 
-            return nodeValues;
+            return values;
         }
     }
 }
