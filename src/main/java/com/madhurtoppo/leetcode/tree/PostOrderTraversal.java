@@ -41,14 +41,11 @@ public class PostOrderTraversal {
             nodes.push(root);
 
             while (!nodes.isEmpty()) {
-
                 TreeNode node = nodes.pop();
                 values.add(0, node.val);
-
                 if (node.left != null) {
                     nodes.push(node.left);
                 }
-
                 if (node.right != null) {
                     nodes.push(node.right);
                 }

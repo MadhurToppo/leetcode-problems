@@ -3,53 +3,44 @@ package com.madhurtoppo.leetcode.tree;
 import com.madhurtoppo.leetcode.commons.classes.TreeNode;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
-public class InOrderTraversal {
+public class KthSmallestElementInBST {
 
     public static class Recursive {
-
-        public List<Integer> inOrder(TreeNode root) {
+        public int kthSmallest(TreeNode root,  int k) {
             ArrayList<Integer> values = new ArrayList<>();
-            return helper(root, values);
+            helper(root, values);
+            return values.get(k - 1);
         }
 
-        private List<Integer> helper(TreeNode root, List<Integer> values) {
+        private void helper(TreeNode root, ArrayList<Integer> values) {
             if (root == null) {
-                return values;
+                return;
             }
-
             helper(root.left, values);
             values.add(root.val);
             helper(root.right, values);
-
-            return values;
         }
     }
 
     public static class Iterative {
-
-        public List<Integer> inOrder(TreeNode root) {
-            ArrayList<Integer> values = new ArrayList<>();
-
-            if (root == null) {
-                return values;
-            }
-
+        public int kthSmallest(TreeNode root, int k) {
             Stack<TreeNode> nodes = new Stack<>();
 
-            while (root != null || !nodes.empty()) {
+            while (root != null || !nodes.isEmpty()) {
                 while (root != null) {
                     nodes.push(root);
                     root = root.left;
                 }
                 root = nodes.pop();
-                values.add(root.val);
+                if (--k == 0) {
+                    break;
+                }
                 root = root.right;
             }
 
-            return values;
+            return root.val;
         }
     }
 }

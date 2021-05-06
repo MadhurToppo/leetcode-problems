@@ -29,7 +29,7 @@ class InOrderTraversalTest {
 
     @Test
     void recursive() {
-        root = TreeUtils.constructBinaryTree(Arrays.asList(1, null, 2, 3));
+        root = TreeUtils.constructBinaryTree(Arrays.asList(1,null,2,3));
 
         actual = recursive.inOrder(root);
         expected = new ArrayList<>(Arrays.asList(1, 3, 2));
@@ -39,7 +39,7 @@ class InOrderTraversalTest {
 
     @Test
     void iterative() {
-        root = TreeUtils.constructBinaryTree(Arrays.asList(1, null, 2, 3));
+        root = TreeUtils.constructBinaryTree(Arrays.asList(1,null,2,3));
 
         actual = iterative.inOrder(root);
         expected = new ArrayList<>(Arrays.asList(1, 3, 2));
