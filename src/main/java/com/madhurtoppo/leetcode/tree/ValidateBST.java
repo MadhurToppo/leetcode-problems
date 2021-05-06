@@ -4,10 +4,11 @@ import com.madhurtoppo.leetcode.commons.classes.TreeNode;
 
 import java.util.Stack;
 
-public class IsValidBST {
+public class ValidateBST {
 
     public static class Iterative {
-        public boolean isValid(TreeNode root) {
+
+        public boolean isValidBST(TreeNode root) {
             if (root == null) {
                 return true;
             }
