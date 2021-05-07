@@ -1,5 +1,6 @@
 # Leetcode
 Leetcode Problems with Soultions in Java.
-The project also contains Unit Tests for the problems in JUnit.
+The project also contains Unit Tests for the problems in JUnit5.
 
-Useful for Live Coding/Pair Programming during Coding Interviews when sharing your code over an IDE.
+How to install.
+Just fork/download the project and open it in your favorite IDE.
