@@ -28,7 +28,7 @@ class PreOrderTraversalTest {
 
     @Test
     void recursive() {
-        root = TreeUtils.constructBinaryTree(Arrays.asList(3, 1, null, null, 5, 2, null, null, 4));
+        root = TreeUtils.constructBinaryTree(Arrays.asList(3,1,null,null,5,2,null,null,4));
 
         actual = recursive.preOrder(root);
         expected = Arrays.asList(3, 1, 5, 2, 4);

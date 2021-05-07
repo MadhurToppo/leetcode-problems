@@ -3,6 +3,7 @@ package com.madhurtoppo.leetcode.tree;
 import com.madhurtoppo.leetcode.commons.classes.TreeNode;
 import com.madhurtoppo.leetcode.commons.utils.CommonUtils;
 import com.madhurtoppo.leetcode.commons.utils.TreeUtils;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +18,7 @@ class LevelOrderTraversalTest {
     private static TreeNode root;
 
 
-    @BeforeEach
+    @BeforeAll
     void setUp() {
         iterative = new LevelOrderTraversal.Iterative();
     }

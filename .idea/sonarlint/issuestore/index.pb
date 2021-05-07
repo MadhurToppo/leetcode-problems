@@ -43,8 +43,6 @@ Csrc/test/java/com/madhurtoppo/leetcode/arrays/BinarySearchTest.java,8/c/8c97cb
 Msrc/test/java/com/madhurtoppo/leetcode/arrays/ContainerWithMostWaterTest.java,1/7/17baa5f1d929baeb3c6dfcde21be6df2c40dd936
 r
 Bsrc/main/java/com/madhurtoppo/leetcode/arrays/StockMaxProfit2.java,e/f/efea021141a3a3828f168483164bf11bf37f65e0
-v
-Fsrc/test/java/com/madhurtoppo/leetcode/tree/PreOrderTraversalTest.java,5/9/59857a62a338c6cbcd9989ec62e626b43d682fe8
 r
 Bsrc/main/java/com/madhurtoppo/leetcode/tree/PreOrderTraversal.java,7/2/7205100b1d152f0012695973c0f460e2022a2a7b
 ;
