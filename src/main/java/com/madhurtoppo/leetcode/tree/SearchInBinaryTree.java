@@ -10,11 +10,9 @@ public class SearchInBinaryTree {
             if (root == null) {
                 return false;
             }
-
             if (root.val == data) {
                 return true;
             }
-
             return searchInBT(root.left, data) || searchInBT(root.right, data);
         }
     }
