@@ -18,7 +18,7 @@ class LevelOrderTraversalTest {
     private static TreeNode root;
 
 
-    @BeforeAll
+    @BeforeEach
     void setUp() {
         iterative = new LevelOrderTraversal.Iterative();
     }
