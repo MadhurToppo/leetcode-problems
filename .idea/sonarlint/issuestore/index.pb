@@ -73,8 +73,6 @@ s
 Csrc/main/java/com/madhurtoppo/leetcode/tree/SearchInBinaryTree.java,a/e/ae2fc03f511f622607c0400d20ba4db24d16bbe9
 q
 Asrc/main/java/com/madhurtoppo/leetcode/tree/InOrderTraversal.java,e/e/eea9fa5c5c9fdef34fd52020c78f877fdb603d98
-x
-Hsrc/main/java/com/madhurtoppo/leetcode/tree/KthSmallestElementInBST.java,2/3/23db665cf59827dadb1dc6c57e3914828a3cae30
 w
 Gsrc/test/java/com/madhurtoppo/leetcode/tree/SearchInBinaryTreeTest.java,f/d/fd09833501bb80f0d76e2c96604213019463b666
 i
