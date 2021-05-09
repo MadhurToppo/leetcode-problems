@@ -23,7 +23,7 @@ class InvertBinaryTreeTest {
     }
 
     @Test
-    void invertTree() {
+    void recursiveInvertTree() {
         root = TreeUtils.constructBinaryTree(Arrays.asList(4,2,7,1,3,6,9));
         actual = recursive.invertTree(root);
         expected = TreeUtils.constructBinaryTree(Arrays.asList(4,7,2,9,6,3,1));
