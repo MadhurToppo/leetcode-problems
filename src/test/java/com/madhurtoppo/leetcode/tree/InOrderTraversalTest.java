@@ -28,7 +28,7 @@ class InOrderTraversalTest {
     }
 
     @Test
-    void recursive() {
+    void recursiveInOrder() {
         root = TreeUtils.constructBinaryTree(Arrays.asList(1,null,2,3));
 
         actual = recursive.inOrder(root);
@@ -38,7 +38,7 @@ class InOrderTraversalTest {
     }
 
     @Test
-    void iterative() {
+    void iterativeInOrder() {
         root = TreeUtils.constructBinaryTree(Arrays.asList(1,null,2,3));
 
         actual = iterative.inOrder(root);
