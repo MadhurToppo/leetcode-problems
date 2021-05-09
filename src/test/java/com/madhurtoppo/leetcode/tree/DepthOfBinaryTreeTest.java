@@ -24,7 +24,7 @@ class DepthOfBinaryTreeTest {
     }
 
     @Test
-    void recursive() {
+    void recursiveMaxDepth() {
         root = TreeUtils.constructBinaryTree(Arrays.asList(3,9,20,null,null,15,7));
 
         actual = recursive.maxDepth(root);
