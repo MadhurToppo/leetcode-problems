@@ -27,7 +27,7 @@ class KthSmallestElementInBSTTest {
     }
 
     @Test
-    void recursive() {
+    void recursiveKthSmall() {
         root = TreeUtils.constructBinaryTree(Arrays.asList(3,1,4,null,2));
 
         k = 1;
@@ -38,7 +38,7 @@ class KthSmallestElementInBSTTest {
     }
 
     @Test
-    void iterative() {
+    void iterativeKthSmall() {
         root = TreeUtils.constructBinaryTree(Arrays.asList(5,3,6,2,4,null,null,1));
 
         k = 3;
