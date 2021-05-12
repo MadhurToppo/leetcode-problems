@@ -6,7 +6,7 @@ public class SelectionSort {
         int j;
         int minIndex;
 
-        for (i = 0; i < nums.length - 1; i++) {
+        for (i = 0; i < nums.length; i++) {
             minIndex = i;
             for (j = i + 1; j < nums.length; j++) {
                 if (nums[j] < nums[minIndex]) {

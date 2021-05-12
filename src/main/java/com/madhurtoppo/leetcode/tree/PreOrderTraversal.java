@@ -32,31 +32,27 @@ public class PreOrderTraversal {
     public static class Iterative {
 
         public List<Integer> preOrder(TreeNode root) {
-
-            List<Integer> values = new ArrayList<>();
+            ArrayList<Integer> list = new ArrayList<>();
 
             if (root == null) {
-                return values;
+                return list;
             }
 
-            Stack<TreeNode> nodes = new Stack<>();
-            nodes.push(root);
+            Stack<TreeNode> stack = new Stack<>();
+            stack.push(root);
 
-            while (!nodes.isEmpty()) {
-
-                TreeNode node = nodes.pop();
-                values.add(node.val);
-
+            while (!stack.isEmpty()) {
+                TreeNode node = stack.pop();
+                list.add(node.val);
                 if (node.right != null) {
-                    nodes.push(node.right);
+                    stack.push(node.right);
                 }
-
                 if (node.left != null) {
-                    nodes.push(node.left);
+                    stack.push(node.left);
                 }
             }
 
-            return values;
+            return list;
         }
     }
 
