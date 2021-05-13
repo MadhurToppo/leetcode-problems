@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.arrays;
+package com.madhurtoppo.leetcode.dp;
 
 import org.junit.jupiter.api.Test;
 
