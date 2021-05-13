@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.arrays;
+package com.madhurtoppo.leetcode.dp;
 
 public class StockMaxProfit2 {
     public int kadane(int[] prices) {
