@@ -8,10 +8,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class LRUCacheTest {
 
     private LRUCache lruCache;
+    private int capacity;
 
     @BeforeEach
     void setUp() {
-        lruCache = new LRUCache(2);
+        capacity = 2;
+        lruCache = new LRUCache(capacity);
     }
 
     @Test
