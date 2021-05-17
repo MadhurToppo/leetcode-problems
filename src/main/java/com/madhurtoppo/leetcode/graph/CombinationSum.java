@@ -11,19 +11,17 @@ public class CombinationSum {
     }
 
     private void dfs(int[] candidates, List<Integer> list, List<List<Integer>> result, int index, int target) {
+        if (target < 0) {
+            return;
+        }
         if (target == 0) {
             result.add(new ArrayList<Integer>(list));
             return;
         }
-        if (target < 0) {
-            return;
-        }
-
         for (int i = index; i < candidates.length; i++) {
             list.add(candidates[i]);
             dfs(candidates, list, result, i, target - candidates[i]);
             list.remove(list.size() - 1);
         }
     }
-
 }
