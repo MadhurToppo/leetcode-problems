@@ -24,7 +24,6 @@ public class GenerateParentheses {
             sb.append(")");
             dfs(sb, result, open, close + 1, n);
             sb.deleteCharAt(sb.length() - 1);
-
         }
     }
 }

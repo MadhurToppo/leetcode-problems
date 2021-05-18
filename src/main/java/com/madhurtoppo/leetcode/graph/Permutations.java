@@ -9,7 +9,6 @@ public class Permutations {
         if (nums == null || nums.length == 0) {
             return result;
         }
-
         dfs(nums, new ArrayList<>(), result, new boolean[nums.length]);
         return result;
     }
@@ -19,7 +18,6 @@ public class Permutations {
             result.add(new ArrayList<>(list));
             return;
         }
-
         for (int i = 0; i < nums.length; i++) {
             if (used[i]) {
                 continue;

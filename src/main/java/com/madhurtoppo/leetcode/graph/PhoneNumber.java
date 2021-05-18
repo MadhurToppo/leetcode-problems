@@ -6,7 +6,6 @@ import java.util.List;
 public class PhoneNumber {
     public List<String> letterCombinations(String digits) {
         List<String> result = new ArrayList<>();
-
         if (digits == null || digits.length() == 0) {
             return  result;
         }
@@ -21,7 +20,7 @@ public class PhoneNumber {
             return;
         }
 
-        char ch = digits.charAt(index); //2
+        char ch = digits.charAt(index);
         String str = letters[Character.getNumericValue(ch)];
 
         for (char c : str.toCharArray()) {
