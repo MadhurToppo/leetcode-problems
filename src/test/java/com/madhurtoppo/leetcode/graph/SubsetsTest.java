@@ -24,8 +24,8 @@ class SubsetsTest {
     @Test
     void subsets() {
         nums = new int[]{1,2,3};
-
         actual = subsets.getSubsets(nums);
+
         expected = new ArrayList<>();
         expected.add(Arrays.asList());
         expected.add(Arrays.asList(1));

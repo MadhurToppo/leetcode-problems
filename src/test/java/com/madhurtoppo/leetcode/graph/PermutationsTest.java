@@ -24,7 +24,6 @@ class PermutationsTest {
     @Test
     void permute() {
         nums = new int[]{1,2,3};
-
         actual = permutations.permute(nums);
 
         expected = new ArrayList<>();

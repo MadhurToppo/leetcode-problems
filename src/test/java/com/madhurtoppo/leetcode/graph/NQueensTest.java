@@ -24,8 +24,8 @@ class NQueensTest {
     @Test
     void solveNQueens() {
         n = 4;
-
         actual = nQueens.solveNQueens(n);
+
         expected = new ArrayList<>();
         expected.add(Arrays.asList("..Q.", "Q...", "...Q", ".Q.."));
         expected.add(Arrays.asList(".Q..", "...Q", "Q...", "..Q."));

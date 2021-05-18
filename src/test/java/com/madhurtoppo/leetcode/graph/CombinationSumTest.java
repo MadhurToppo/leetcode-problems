@@ -26,8 +26,8 @@ class CombinationSumTest {
     void combinationTest1() {
         candidates = new int[]{2,3,6,7};
         target = 7;
-
         actual = combinationSum.combination(candidates, target);
+
         expected = new ArrayList<>();
         expected.add(Arrays.asList(2, 2, 3));
         expected.add(Arrays.asList(7));
@@ -39,8 +39,8 @@ class CombinationSumTest {
     void combinationTest2() {
         candidates = new int[]{2,3,5};
         target = 8;
-
         actual = combinationSum.combination(candidates, target);
+
         expected = new ArrayList<>();
         expected.add(Arrays.asList(2, 2, 2, 2));
         expected.add(Arrays.asList(2, 3, 3));
