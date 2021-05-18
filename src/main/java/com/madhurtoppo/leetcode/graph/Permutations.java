@@ -10,11 +10,11 @@ public class Permutations {
             return result;
         }
 
-        permuteRecur(nums, new ArrayList<>(), result, new boolean[nums.length]);
+        dfs(nums, new ArrayList<>(), result, new boolean[nums.length]);
         return result;
     }
 
-    private void permuteRecur(int[] nums, List<Integer> list, List<List<Integer>> result, boolean[] used) {
+    private void dfs(int[] nums, List<Integer> list, List<List<Integer>> result, boolean[] used) {
         if (list.size() == nums.length) {
             result.add(new ArrayList<>(list));
             return;
@@ -26,7 +26,7 @@ public class Permutations {
             }
             list.add(nums[i]);
             used[i] = true;
-            permuteRecur(nums, list, result, used);
+            dfs(nums, list, result, used);
             used[i] = false;
             list.remove(list.size() - 1);
         }
