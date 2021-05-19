@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.dp;
+package com.madhurtoppo.leetcode.arrays;
 
 public class MaxSubArray {
 
