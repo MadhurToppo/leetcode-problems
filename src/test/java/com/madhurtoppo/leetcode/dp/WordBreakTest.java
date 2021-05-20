@@ -22,7 +22,7 @@ class WordBreakTest {
     }
 
     @Test
-    void wordBreakTest1() {
+    void wbRecursiveTest1() {
         s = "leetcode";
         wordDict = new ArrayList<>(Arrays.asList("leet", "code"));
         condition = wordBreak.wbRecursive(s, wordDict);
@@ -30,7 +30,7 @@ class WordBreakTest {
     }
 
     @Test
-    void wordBreakTest2() {
+    void wbRecursiveTest2() {
         s = "applepenapple";
         wordDict = new ArrayList<>(Arrays.asList("apple", "pen"));
         condition = wordBreak.wbRecursive(s, wordDict);
@@ -38,10 +38,34 @@ class WordBreakTest {
     }
 
     @Test
-    void wordBreakTest3() {
+    void wbRecursiveTest3() {
         s = "catsandog";
         wordDict = new ArrayList<>(Arrays.asList("cats", "dog", "sand", "and", "cat"));
         condition = wordBreak.wbRecursive(s, wordDict);
+        assertFalse(condition);
+    }
+
+    @Test
+    void wbIterativeTest1() {
+        s = "leetcode";
+        wordDict = new ArrayList<>(Arrays.asList("leet", "code"));
+        condition = wordBreak.wbIterative(s, wordDict);
+        assertTrue(condition);
+    }
+
+    @Test
+    void wbIterativeTest2() {
+        s = "applepenapple";
+        wordDict = new ArrayList<>(Arrays.asList("apple", "pen"));
+        condition = wordBreak.wbIterative(s, wordDict);
+        assertTrue(condition);
+    }
+
+    @Test
+    void wbIterativeTest3() {
+        s = "catsandog";
+        wordDict = new ArrayList<>(Arrays.asList("cats", "dog", "sand", "and", "cat"));
+        condition = wordBreak.wbIterative(s, wordDict);
         assertFalse(condition);
     }
 }
