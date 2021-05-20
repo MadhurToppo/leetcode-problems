@@ -1,5 +1,6 @@
-package com.madhurtoppo.leetcode.graph;
+package com.madhurtoppo.leetcode.dfs;
 
+import com.madhurtoppo.leetcode.dfs.NumberOfIslands;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

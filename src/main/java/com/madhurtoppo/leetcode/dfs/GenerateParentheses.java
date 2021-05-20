@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.graph;
+package com.madhurtoppo.leetcode.dfs;
 
 import java.util.ArrayList;
 import java.util.List;

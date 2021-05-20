@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.graph;
+package com.madhurtoppo.leetcode.dfs;
 
 public class NumberOfIslands {
 
