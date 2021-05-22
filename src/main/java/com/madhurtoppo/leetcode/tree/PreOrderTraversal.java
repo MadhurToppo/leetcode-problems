@@ -19,12 +19,9 @@ public class PreOrderTraversal {
             if (root == null) {
                 return values;
             }
-
             values.add(root.val);
-
             helper(root.left, values);
             helper(root.right, values);
-
             return values;
         }
     }
