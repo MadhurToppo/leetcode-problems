@@ -6,14 +6,14 @@ import java.util.List;
 
 public class ConnectedComponents {
     public int countComponents(int n, int[][] edges) {
-        HashMap<Integer, List<Integer>> adj = new HashMap<>();
+        HashMap<Integer, List<Integer>> map = new HashMap<>();
         for (int i = 0; i < n; i++) {
-            adj.put(i, new LinkedList<Integer>());
+            map.put(i, new LinkedList<Integer>());
         }
 
         for (int i = 0; i < edges.length; i++) {
-            adj.get(edges[i][0]).add(edges[i][1]);
-            adj.get(edges[i][1]).add(edges[i][0]);
+            map.get(edges[i][0]).add(edges[i][1]);
+            map.get(edges[i][1]).add(edges[i][0]);
         }
 
         boolean[] visited = new boolean[n];
@@ -22,7 +22,7 @@ public class ConnectedComponents {
         for (int i = 0; i < n; i++) {
             if (!visited[i]) {
                 count++;
-                dfs(adj, i, visited);
+                dfs(map, i, visited);
             }
         }
         return count;
