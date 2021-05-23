@@ -19,11 +19,20 @@ class MinimumSizeSubarraySumTest {
     }
 
     @Test
-    void minSubArrayLen() {
+    void minSubArrayLenTest1() {
         target = 7;
         nums = new int[]{2,3,1,2,4,3};
         actual = minimumSizeSubarraySum.minSubArrayLen(target, nums);
         expected = 2;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void minSubArrayLenTest2() {
+        target = 11;
+        nums = new int[]{1,1,1,1,1,1,1};
+        actual = minimumSizeSubarraySum.minSubArrayLen(target, nums);
+        expected = 0;
         assertEquals(expected, actual);
     }
 }
