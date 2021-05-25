@@ -11,11 +11,13 @@ public class LongestCommonSubsequence {
          if (i < 0 || j < 0) {
              return 0;
          }
+         int result;
          if (s.charAt(i) == t.charAt(j)) {
-             return 1 + lcs(s, t, i-1, j-1);
+             result = 1 + lcs(s, t, i-1, j-1);
          } else {
-             return Math.max(lcs(s, t, i-1, j), lcs(s, t, i, j-1));
+             result = Math.max(lcs(s, t, i-1, j), lcs(s, t, i, j-1));
          }
+         return result;
      }
 
     public int iterative(String text1, String text2) {
