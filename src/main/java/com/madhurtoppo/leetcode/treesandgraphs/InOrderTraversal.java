@@ -32,13 +32,10 @@ public class InOrderTraversal {
 
         public List<Integer> inOrder(TreeNode root) {
             ArrayList<Integer> values = new ArrayList<>();
-
             if (root == null) {
                 return values;
             }
-
             Stack<TreeNode> nodes = new Stack<>();
-
             while (root != null || !nodes.empty()) {
                 while (root != null) {
                     nodes.push(root);

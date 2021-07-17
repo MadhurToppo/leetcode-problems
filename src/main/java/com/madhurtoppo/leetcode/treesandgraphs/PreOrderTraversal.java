@@ -30,14 +30,11 @@ public class PreOrderTraversal {
 
         public List<Integer> preOrder(TreeNode root) {
             ArrayList<Integer> list = new ArrayList<>();
-
             if (root == null) {
                 return list;
             }
-
             Stack<TreeNode> stack = new Stack<>();
             stack.push(root);
-
             while (!stack.isEmpty()) {
                 TreeNode node = stack.pop();
                 list.add(node.val);
