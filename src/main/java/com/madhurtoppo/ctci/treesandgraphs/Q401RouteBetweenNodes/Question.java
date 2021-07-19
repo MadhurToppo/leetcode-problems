@@ -18,21 +18,21 @@ public class Question {
         }
         start.state = State.Visiting;
         queue.add(start);
-        Node u;
+        Node node;
         while (!queue.isEmpty()) {
-            u = queue.removeFirst();
-            if (u != null) {
-                for (Node v : u.getEdges()) {
-                    if (v.state == State.Unvisited) {
-                        if (v == end) {
+            node = queue.removeFirst();
+            if (node != null) {
+                for (Node visited : node.getEdges()) {
+                    if (visited.state == State.Unvisited) {
+                        if (visited == end) {
                             return true;
                         } else {
-                            v.state = State.Visiting;
-                            queue.add(v);
+                            visited.state = State.Visiting;
+                            queue.add(visited);
                         }
                     }
                 }
-                u.state = State.Visited;
+                node.state = State.Visited;
             }
         }
         return false;

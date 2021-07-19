@@ -5,9 +5,8 @@ import com.madhurtoppo.ctci.treesandgraphs.Q401RouteBetweenNodes.Question;
 public class Node {
 
     private String vertex;
-    private int edgeCount;
-
     private Node[] edges;
+    private int edgeCount;
 
     public Question.State state;
 

@@ -9,10 +9,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class QuestionTest {
 
-    public static Graph graph;
+    public Graph graph;
 
-    private static int nodeCount;
-    private static boolean condition;
+    private int nodeCount;
+    private boolean condition;
 
     @BeforeEach
     void setUp() {
@@ -33,16 +33,16 @@ class QuestionTest {
         nodes[3].addEdge(nodes[4]);
         nodes[4].addEdge(nodes[5]);
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < nodes.length; i++) {
             graph.addNode(nodes[i]);
         }
     }
 
     @Test
     void test1() {
-        Node[] n = graph.getNodes();
-        Node start = n[3];
-        Node end = n[5];
+        Node[] nodes = graph.getNodes();
+        Node start = nodes[3];
+        Node end = nodes[5];
 
         condition = Question.search(graph, start, end);
         assertTrue(condition);
@@ -50,9 +50,9 @@ class QuestionTest {
 
     @Test
     void test2() {
-        Node[] n = graph.getNodes();
-        Node start = n[2];
-        Node end = n[3];
+        Node[] nodes = graph.getNodes();
+        Node start = nodes[2];
+        Node end = nodes[3];
 
         condition = Question.search(graph, start, end);
         assertFalse(condition);
@@ -60,9 +60,9 @@ class QuestionTest {
 
     @Test
     void test3() {
-        Node[] n = graph.getNodes();
-        Node start = n[2];
-        Node end = n[0];
+        Node[] nodes = graph.getNodes();
+        Node start = nodes[2];
+        Node end = nodes[0];
 
         condition = Question.search(graph, start, end);
         assertFalse(condition);
