@@ -14,7 +14,7 @@ public class Node {
     public Node(String vertex, int edgeCount) {
         this.vertex = vertex;
         this.edgeCount = 0;
-        edges = new Node[edgeCount];
+        this.edges = new Node[edgeCount];
     }
 
     public void addEdge(Node node) {

@@ -19,8 +19,7 @@ class QuestionTest {
         nodeCount = 6;
         graph = new Graph(nodeCount);
 
-        Node[] nodes = new Node[6];
-
+        Node[] nodes = graph.getNodes();
         nodes[0] = new Node("a", 3);
         nodes[1] = new Node("b", 0);
         nodes[2] = new Node("c", 0);

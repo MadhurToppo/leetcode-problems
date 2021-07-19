@@ -11,16 +11,16 @@ public class Question {
         Unvisited, Visited, Visiting;
     }
 
-    public static boolean search(Graph graph,Node start,Node end) {
-        LinkedList<Node> q = new LinkedList<>();
+    public static boolean search(Graph graph, Node start, Node end) {
+        LinkedList<Node> queue = new LinkedList<>();
         for (Node node : graph.getNodes()) {
             node.state = State.Unvisited;
         }
         start.state = State.Visiting;
-        q.add(start);
+        queue.add(start);
         Node u;
-        while(!q.isEmpty()) {
-            u = q.removeFirst();
+        while (!queue.isEmpty()) {
+            u = queue.removeFirst();
             if (u != null) {
                 for (Node v : u.getEdges()) {
                     if (v.state == State.Unvisited) {
@@ -28,7 +28,7 @@ public class Question {
                             return true;
                         } else {
                             v.state = State.Visiting;
-                            q.add(v);
+                            queue.add(v);
                         }
                     }
                 }
