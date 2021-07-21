@@ -1,4 +1,4 @@
-package com.madhurtoppo.ctci.treesandgraphs.Q402MInimalTree;
+package com.madhurtoppo.ctci.treesandgraphs.Q402MinimalTree;
 
 import com.madhurtoppo.leetcode.commons.classes.TreeNode;
 import com.madhurtoppo.leetcode.commons.utils.TreeUtils;
