@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.treesandgraphs;
+package com.madhurtoppo.ctci.treesandgraphs.Q403ListOfDepths;
 
 import com.madhurtoppo.leetcode.commons.classes.TreeNode;
 

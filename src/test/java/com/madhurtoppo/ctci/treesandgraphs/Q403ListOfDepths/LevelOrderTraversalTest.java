@@ -1,5 +1,6 @@
-package com.madhurtoppo.leetcode.treesandgraphs;
+package com.madhurtoppo.ctci.treesandgraphs.Q403ListOfDepths;
 
+import com.madhurtoppo.ctci.treesandgraphs.Q403ListOfDepths.LevelOrderTraversal;
 import com.madhurtoppo.leetcode.commons.classes.TreeNode;
 import com.madhurtoppo.leetcode.commons.utils.CommonUtils;
 import com.madhurtoppo.leetcode.commons.utils.TreeUtils;
@@ -11,9 +12,7 @@ import java.util.Arrays;
 class LevelOrderTraversalTest {
 
     private static LevelOrderTraversal.Iterative iterative;
-
     private static TreeNode root;
-
 
     @BeforeEach
     void setUp() {
