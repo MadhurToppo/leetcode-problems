@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.treesandgraphs;
+package com.madhurtoppo.ctci.treesandgraphs.Q405ValidateBST;
 
 import com.madhurtoppo.leetcode.commons.classes.TreeNode;
 import com.madhurtoppo.leetcode.commons.utils.TreeUtils;
