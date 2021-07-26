@@ -132,17 +132,11 @@ Psrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/DepthOfBinaryTreeTest.jav
 }
 Msrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/CourseScheduleTest.java,5/6/5684ac1c111ad6f4c0aab14ee035275417a2bf7e
 
-Osrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/InvertBinaryTreeTest.java,f/0/f0b71aa2bb04c8f8afc5bf22b24088fefecf557c
-
 Osrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/InOrderTraversalTest.java,2/7/2775d18384c0452545aad0e0d14ca7bf31126149
 Ü
 Vsrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/KthSmallestElementInBSTTest.java,f/e/fe7c072fb7e1f047b5486cc67ef944c8c7c5dbf6
-v
-Fsrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/PathSumTest.java,c/c/cca5b5a2656cd10199fa71f8f02c6ac0a0adfe95
 Å
 Qsrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/PostOrderTraversalTest.java,7/4/7446124092842549709228bc015cd5cf455c59b7
-r
-Bsrc/main/java/com/madhurtoppo/leetcode/treesandgraphs/PathSum.java,5/3/53ba0fb0e08f6f800cecb470c30093a18aefa5b3
 s
 Csrc/main/java/com/madhurtoppo/leetcode/treesandgraphs/SameTree.java,8/5/8578090f8b709b6afafb839b587eeba4a2a7776c
 {

@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.treesandgraphs;
+package com.madhurtoppo.ctci.treesandgraphs.Q412PathsWithSum;
 
 import com.madhurtoppo.leetcode.commons.classes.TreeNode;
 import com.madhurtoppo.leetcode.commons.utils.TreeUtils;
