@@ -115,8 +115,6 @@ Psrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/PreOrderTraversalTest.jav
 Qsrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/SearchInBinaryTreeTest.java,e/3/e3f5137cf30d37c5dad17ce4a7e9d8671d3a9099
 
 Osrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/SizeOfBinaryTreeTest.java,e/a/ead1888513c14bf82d492e5eba0256e520892bbe
-|
-Lsrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/SymmetricTreeTest.java,5/c/5cedff8180a9ee5bb35502bd643b051625ba96d1
 Ç
 Rsrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/ConnectedComponentsTest.java,f/0/f043c5283f7da0514f2c7f4951bba8d065be351c
 Ç
@@ -137,12 +135,8 @@ Osrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/InOrderTraversalTest.java
 Vsrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/KthSmallestElementInBSTTest.java,f/e/fe7c072fb7e1f047b5486cc67ef944c8c7c5dbf6
 Å
 Qsrc/test/java/com/madhurtoppo/leetcode/treesandgraphs/PostOrderTraversalTest.java,7/4/7446124092842549709228bc015cd5cf455c59b7
-s
-Csrc/main/java/com/madhurtoppo/leetcode/treesandgraphs/SameTree.java,8/5/8578090f8b709b6afafb839b587eeba4a2a7776c
 {
 Ksrc/main/java/com/madhurtoppo/leetcode/treesandgraphs/SizeOfBinaryTree.java,b/b/bbf448e49f62af7a0647b62e228570196bcbb4e4
-x
-Hsrc/main/java/com/madhurtoppo/leetcode/treesandgraphs/SymmetricTree.java,6/1/6153472760f9d0047d51380fd760f3539081044c
 {
 Ksrc/main/java/com/madhurtoppo/leetcode/treesandgraphs/InOrderTraversal.java,d/b/dbe40e1765883f0574d6ef086f4bc91151a813aa
 ~

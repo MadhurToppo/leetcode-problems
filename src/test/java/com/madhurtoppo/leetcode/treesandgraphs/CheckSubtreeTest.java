@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Arrays;
 
-class SameTreeTest {
+class CheckSubtreeTest {
 
     private static SameTree.Recursive recursive;
 
