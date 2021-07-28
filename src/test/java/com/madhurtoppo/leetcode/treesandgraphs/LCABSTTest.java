@@ -28,7 +28,6 @@ class LCABSTTest {
     @Test
     void lowestCommonAncestorTest1() {
         root = TreeUtils.constructBinaryTree(Arrays.asList(6,2,8,0,4,7,9,null,null,3,5));
-
         p = TreeUtils.constructBinaryTree(Arrays.asList(2,0,4,null,null,3,5));
         q = TreeUtils.constructBinaryTree(Arrays.asList(8,7,9));
 
