@@ -1,4 +1,4 @@
-package com.madhurtoppo.tccig.recursionanddp.Q802TowerOfHanoi;
+package com.madhurtoppo.tccig.RecursionAndDp.Q802TowerOfHanoi;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
