@@ -12,11 +12,14 @@ public class LevelOrderTraversal {
     public static class Iterative {
         public List<List<Integer>> levelOrder(TreeNode root) {
             List<List<Integer>> result = new ArrayList<>();
+
             if (root == null) {
                 return result;
             }
+
             Queue<TreeNode> nodes = new LinkedList<>();
             nodes.offer(root);
+
             while (!nodes.isEmpty()) {
                 int size = nodes.size();
                 List<Integer> values = new ArrayList<>();

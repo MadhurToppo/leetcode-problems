@@ -8,17 +8,20 @@ import java.util.LinkedList;
 public class Question {
 
     public enum State {
-        Unvisited, Visited, Visiting;
+        Unvisited, Visiting, Visited;
     }
 
     public static boolean search(Graph graph, Node start, Node end) {
         LinkedList<Node> queue = new LinkedList<>();
+
         for (Node node : graph.getNodes()) {
             node.state = State.Unvisited;
         }
+
         start.state = State.Visiting;
         queue.add(start);
         Node node;
+
         while (!queue.isEmpty()) {
             node = queue.removeFirst();
             if (node != null) {
