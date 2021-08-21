@@ -33,10 +33,6 @@ l
 <src/test/java/com/madhurtoppo/leetcode/dp/WordBreakTest.java,9/e/9e56de6f0603de70f2d931fa974a9091a7826819
 s
 Csrc/main/java/com/madhurtoppo/leetcode/dfs/GenerateParentheses.java,7/2/728b671ef69bdc85653b556208098d5b83fab620
-g
-7src/main/java/com/madhurtoppo/leetcode/dfs/Subsets.java,9/d/9d472e8e4a6b33bd522a9d8f9cf5a970db10a08b
-j
-:src/main/java/com/madhurtoppo/leetcode/dfs/WordSearch.java,c/5/c59d4e73ed0a0f66c69e7d702598ec39383aa438
 w
 Gsrc/test/java/com/madhurtoppo/leetcode/dfs/GenerateParenthesesTest.java,7/0/7008cc24a3892914d9a54704353fcc71345cd521
 k
