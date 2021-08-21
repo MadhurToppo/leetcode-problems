@@ -1,4 +1,4 @@
-package com.madhurtoppo.tccig.RecursionAndDp.Q812CurlyBraces;
+package com.madhurtoppo.tccig.dpandrecursion.q812curly_braces;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

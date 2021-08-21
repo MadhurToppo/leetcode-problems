@@ -1,4 +1,4 @@
-package com.madhurtoppo.tccig.RecursionAndDp.Q801RobotGrid;
+package com.madhurtoppo.tccig.dpandrecursion.q801robot_grid;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

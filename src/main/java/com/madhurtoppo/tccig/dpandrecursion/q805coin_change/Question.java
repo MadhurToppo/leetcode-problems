@@ -1,4 +1,4 @@
-package com.madhurtoppo.tccig.RecursionAndDp.Q805CoinChange;
+package com.madhurtoppo.tccig.dpandrecursion.q805coin_change;
 
 import java.util.Arrays;
 

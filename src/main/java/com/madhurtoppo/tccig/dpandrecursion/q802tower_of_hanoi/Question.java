@@ -1,4 +1,4 @@
-package com.madhurtoppo.tccig.RecursionAndDp.Q802TowerOfHanoi;
+package com.madhurtoppo.tccig.dpandrecursion.q802tower_of_hanoi;
 
 import java.util.ArrayList;
 import java.util.List;

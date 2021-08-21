@@ -1,9 +1,9 @@
-package com.madhurtoppo.tccig.RecursionAndDp.Q812CurlyBraces;
+package com.madhurtoppo.tccig.treesandgraph.q812_curly_braces;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Question {
+public class Question1 {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
         StringBuilder sb = new StringBuilder();

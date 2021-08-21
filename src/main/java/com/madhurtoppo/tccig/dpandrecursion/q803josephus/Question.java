@@ -1,4 +1,4 @@
-package com.madhurtoppo.tccig.RecursionAndDp.Q803Josephus;
+package com.madhurtoppo.tccig.dpandrecursion.q803josephus;
 
 public class Question {
     public int josephus(int n, int k) {

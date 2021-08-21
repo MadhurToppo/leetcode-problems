@@ -1,4 +1,4 @@
-package com.madhurtoppo.tccig.RecursionAndDp.Q805CoinChange;
+package com.madhurtoppo.tccig.dpandrecursion.q803josephus;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class QuestionTest {
 
     private Question question;
-    private int[] coins;
-    private int amount;
+    private int n;
+    private int k;
     private int expected;
     private int actual;
 
@@ -20,28 +20,28 @@ class QuestionTest {
 
     @Test
     void test1() {
-        amount = 5;
-        coins = new int[]{1, 2, 5};
-        expected = 4;
-        actual = question.change(amount, coins);
+        n = 15;
+        k = 3;
+        expected = 5;
+        actual = question.josephus(n, k);
         assertEquals(expected, actual);
     }
 
     @Test
     void test2() {
-        amount = 3;
-        coins = new int[]{2};
-        expected = 0;
-        actual = question.change(amount, coins);
+        n = 5;
+        k = 2;
+        expected = 3;
+        actual = question.josephus(n, k);
         assertEquals(expected, actual);
     }
 
     @Test
     void test3() {
-        amount = 10;
-        coins = new int[]{10};
-        expected = 1;
-        actual = question.change(amount, coins);
+        n = 47;
+        k = 5;
+        expected = 4;
+        actual = question.josephus(n, k);
         assertEquals(expected, actual);
     }
 }
