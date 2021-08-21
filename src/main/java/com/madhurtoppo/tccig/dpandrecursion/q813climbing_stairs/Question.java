@@ -1,6 +1,6 @@
 package com.madhurtoppo.tccig.dpandrecursion.q813climbing_stairs;
 
-public class ClimbingStairs {
+public class Question {
     public int recursive(int n) {
         if (n == 1) {
             return 1;
@@ -16,12 +16,12 @@ public class ClimbingStairs {
         } else if (n == 2) {
             return 2;
         }
-        int[] memo = new int[n + 1];
-        memo[1] = 1;
-        memo[2] = 2;
+        int[] cache = new int[n + 1];
+        cache[1] = 1;
+        cache[2] = 2;
         for (int i = 3; i < n + 1; i++) {
-            memo[i] = memo[i - 1] + memo[i - 2];
+            cache[i] = cache[i - 1] + cache[i - 2];
         }
-        return memo[n];
+        return cache[n];
     }
 }
