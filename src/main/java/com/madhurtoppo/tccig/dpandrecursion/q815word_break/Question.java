@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class Question {
     public boolean wordBreak(String s, List<String> wordDict) {
-        Set<String> set = new HashSet<String>(wordDict);
+        Set<String> set = new HashSet<>(wordDict);
         boolean [] memo = new boolean[s.length()+1];
         memo[0] = true;
 

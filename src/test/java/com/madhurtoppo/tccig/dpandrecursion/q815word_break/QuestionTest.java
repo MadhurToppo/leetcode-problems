@@ -52,4 +52,5 @@ class QuestionTest {
         condition = question.wordBreak(s, wordDict);
         assertFalse(condition);
     }
+
 }
