@@ -11,8 +11,8 @@ class QuestionTest {
     private int cols;
     private int rows;
     private int[][] a;
-    private int expected;
-    private int actual;
+    private String expected;
+    private String actual;
 
     @BeforeEach
     void setUp() {
@@ -30,8 +30,8 @@ class QuestionTest {
                 {3,2,1,1,3},
                 {1,3,2,3,3}
         };
-        actual = question.determineBiggestColorSpot(cols, rows, a);
-        expected = 11;
+        actual = question.findLargestColorSpot(cols, rows, a);
+        expected = "Color: 3, Biggest Spot: 11";
         assertEquals(expected, actual);
     }
 }
