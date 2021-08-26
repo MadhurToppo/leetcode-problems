@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.dp;
+package com.madhurtoppo.leetcode.dpandrecursion;
 
 public class EditDistance {
     public int recursive(String word1, String word2) {

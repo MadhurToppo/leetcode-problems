@@ -1,6 +1,5 @@
-package com.madhurtoppo.leetcode.dfs;
+package com.madhurtoppo.leetcode.dpandrecursion;
 
-import com.madhurtoppo.leetcode.dfs.Permutations;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,30 +9,32 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PermutationsTest {
+class SubsetsTest {
 
-    private Permutations permutations;
+    private Subsets subsets;
     private int[] nums;
     private List<List<Integer>> actual;
     private List<List<Integer>> expected;
 
     @BeforeEach
     void setUp() {
-        permutations = new Permutations();
+        subsets = new Subsets();
     }
 
     @Test
-    void permute() {
+    void subsets() {
         nums = new int[]{1,2,3};
-        actual = permutations.permute(nums);
+        actual = subsets.getSubsets(nums);
 
         expected = new ArrayList<>();
+        expected.add(Arrays.asList());
+        expected.add(Arrays.asList(1));
+        expected.add(Arrays.asList(1, 2));
         expected.add(Arrays.asList(1, 2, 3));
-        expected.add(Arrays.asList(1, 3, 2));
-        expected.add(Arrays.asList(2, 1, 3));
-        expected.add(Arrays.asList(2, 3, 1));
-        expected.add(Arrays.asList(3, 1, 2));
-        expected.add(Arrays.asList(3, 2, 1));
+        expected.add(Arrays.asList(1, 3));
+        expected.add(Arrays.asList(2));
+        expected.add(Arrays.asList(2, 3));
+        expected.add(Arrays.asList(3));
 
         assertEquals(expected, actual);
     }

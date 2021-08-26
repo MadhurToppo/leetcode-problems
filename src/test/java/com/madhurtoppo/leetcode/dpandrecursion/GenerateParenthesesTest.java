@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.dfs;
+package com.madhurtoppo.leetcode.dpandrecursion;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.dp;
+package com.madhurtoppo.leetcode.dpandrecursion;
 
 public class ClimbingStairs {
     public int recursive(int n) {

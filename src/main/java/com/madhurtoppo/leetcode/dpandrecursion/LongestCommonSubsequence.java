@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.dp;
+package com.madhurtoppo.leetcode.dpandrecursion;
 
 public class LongestCommonSubsequence {
      public int recursive(String text1, String text2) {

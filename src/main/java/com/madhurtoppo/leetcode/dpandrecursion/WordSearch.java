@@ -1,4 +1,4 @@
-package com.madhurtoppo.leetcode.dfs;
+package com.madhurtoppo.leetcode.dpandrecursion;
 
 public class WordSearch {
 

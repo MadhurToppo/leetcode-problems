@@ -1,6 +1,6 @@
-package com.madhurtoppo.leetcode.dfs;
+package com.madhurtoppo.leetcode.dpandrecursion;
 
-import com.madhurtoppo.leetcode.dfs.CombinationSum;
+import com.madhurtoppo.tccig.dpandrecursion.q814combination_sum.Question;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,9 +10,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CombinationSumTest {
+class QuestionTest {
 
-    private CombinationSum combinationSum;
+    private Question question;
     private int[] candidates;
     private int target;
     private List<List<Integer>> actual;
@@ -20,14 +20,14 @@ class CombinationSumTest {
 
     @BeforeEach
     void setUp() {
-        combinationSum = new CombinationSum();
+        question = new Question();
     }
 
     @Test
     void combinationTest1() {
         candidates = new int[]{2,3,6,7};
         target = 7;
-        actual = combinationSum.combination(candidates, target);
+        actual = question.combination(candidates, target);
 
         expected = new ArrayList<>();
         expected.add(Arrays.asList(2, 2, 3));
@@ -40,7 +40,7 @@ class CombinationSumTest {
     void combinationTest2() {
         candidates = new int[]{2,3,5};
         target = 8;
-        actual = combinationSum.combination(candidates, target);
+        actual = question.combination(candidates, target);
 
         expected = new ArrayList<>();
         expected.add(Arrays.asList(2, 2, 2, 2));

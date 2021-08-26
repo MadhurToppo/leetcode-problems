@@ -1,9 +1,9 @@
-package com.madhurtoppo.leetcode.dfs;
+package com.madhurtoppo.tccig.dpandrecursion.q814combination_sum;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CombinationSum {
+public class Question {
     public List<List<Integer>> combination(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
         dfs( candidates, new ArrayList<Integer>(), result,0, target);
