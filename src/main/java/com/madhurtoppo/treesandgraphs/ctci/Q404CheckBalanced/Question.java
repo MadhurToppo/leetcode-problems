@@ -1,6 +1,6 @@
 package com.madhurtoppo.treesandgraphs.ctci.Q404CheckBalanced;
 
-import com.madhurtoppo.leetcode.commons.classes.TreeNode;
+import com.madhurtoppo.commons.leetcode.classes.TreeNode;
 
 public class Question {
 

@@ -1,6 +1,6 @@
 package com.madhurtoppo.treesandgraphs.ctci.Q402MinimalTree;
 
-import com.madhurtoppo.leetcode.commons.classes.TreeNode;
+import com.madhurtoppo.commons.leetcode.classes.TreeNode;
 
 public class Question {
 

@@ -1,6 +1,6 @@
 package com.madhurtoppo.treesandgraphs.ctci.Q410CheckSubtree;
 
-import com.madhurtoppo.leetcode.commons.classes.TreeNode;
+import com.madhurtoppo.commons.leetcode.classes.TreeNode;
 
 public class CheckSubtree {
     public static class Recursive {

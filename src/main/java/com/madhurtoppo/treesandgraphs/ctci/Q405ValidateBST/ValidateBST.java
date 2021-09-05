@@ -1,6 +1,6 @@
 package com.madhurtoppo.treesandgraphs.ctci.Q405ValidateBST;
 
-import com.madhurtoppo.leetcode.commons.classes.TreeNode;
+import com.madhurtoppo.commons.leetcode.classes.TreeNode;
 
 import java.util.Stack;
 

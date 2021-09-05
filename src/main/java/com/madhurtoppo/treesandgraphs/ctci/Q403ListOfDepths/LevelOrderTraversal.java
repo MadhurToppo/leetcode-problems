@@ -1,6 +1,6 @@
 package com.madhurtoppo.treesandgraphs.ctci.Q403ListOfDepths;
 
-import com.madhurtoppo.leetcode.commons.classes.TreeNode;
+import com.madhurtoppo.commons.leetcode.classes.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,7 +1,7 @@
 package com.madhurtoppo.treesandgraphs.ctci.Q408FirstCommonAncestor;
 
-import com.madhurtoppo.leetcode.commons.classes.TreeNode;
-import com.madhurtoppo.leetcode.commons.utils.TreeUtils;
+import com.madhurtoppo.commons.leetcode.classes.TreeNode;
+import com.madhurtoppo.commons.leetcode.utils.TreeUtils;
 import com.madhurtoppo.treesandgraphs.ctci.Q408FirstCommonAncestor.LCA;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
