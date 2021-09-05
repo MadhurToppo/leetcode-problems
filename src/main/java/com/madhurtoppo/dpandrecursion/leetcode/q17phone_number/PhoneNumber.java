@@ -1,4 +1,4 @@
-package com.madhurtoppo.dpandrecursion.leetcode.q17letter_combinations_of_a_phone_number;
+package com.madhurtoppo.dpandrecursion.leetcode.q17phone_number;
 
 import java.util.ArrayList;
 import java.util.List;
