@@ -1,6 +1,6 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q162peak_element;
 
-import com.madhurtoppo.arrays.leetcode.PeakElement;
+import com.madhurtoppo.arrays.leetcode.q162peak_element.PeakElement;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

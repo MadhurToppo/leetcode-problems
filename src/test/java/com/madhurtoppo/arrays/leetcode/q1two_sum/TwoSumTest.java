@@ -1,6 +1,6 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q1two_sum;
 
-import com.madhurtoppo.arrays.leetcode.TwoSum;
+import com.madhurtoppo.arrays.leetcode.q1two_sum.TwoSum;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

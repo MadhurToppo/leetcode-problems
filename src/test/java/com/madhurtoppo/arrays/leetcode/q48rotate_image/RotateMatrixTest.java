@@ -1,6 +1,6 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q48rotate_image;
 
-import com.madhurtoppo.arrays.leetcode.RotateMatrix;
+import com.madhurtoppo.arrays.leetcode.q48rotate_image.RotateMatrix;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

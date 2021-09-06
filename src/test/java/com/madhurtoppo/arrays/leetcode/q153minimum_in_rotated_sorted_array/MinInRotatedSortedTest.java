@@ -1,6 +1,6 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q153minimum_in_rotated_sorted_array;
 
-import com.madhurtoppo.arrays.leetcode.MinInRotatedSorted;
+import com.madhurtoppo.arrays.leetcode.q153minimum_in_rotated_sorted_array.MinInRotatedSorted;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

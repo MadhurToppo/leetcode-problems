@@ -1,4 +1,4 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q33search_in_rotated_sorted_array;
 
 public class SearchInRotatedSorted {
 

@@ -1,6 +1,6 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q53maximum_subarray;
 
-import com.madhurtoppo.arrays.leetcode.MaxSubArray;
+import com.madhurtoppo.arrays.leetcode.q53maximum_subarray.MaxSubArray;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

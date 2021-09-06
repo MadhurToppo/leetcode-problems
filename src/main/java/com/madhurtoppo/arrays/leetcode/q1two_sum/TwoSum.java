@@ -1,4 +1,4 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q1two_sum;
 
 import java.util.HashMap;
 import java.util.Map;

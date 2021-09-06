@@ -1,6 +1,6 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q122stock_max_profit2;
 
-import com.madhurtoppo.arrays.leetcode.StockMaxProfit2;
+import com.madhurtoppo.arrays.leetcode.q122stock_max_profit2.StockMaxProfit2;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

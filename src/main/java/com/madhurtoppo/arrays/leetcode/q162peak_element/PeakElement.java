@@ -1,4 +1,4 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q162peak_element;
 
 public class PeakElement {
 

@@ -1,6 +1,6 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q33search_in_rotated_sorted_array;
 
-import com.madhurtoppo.arrays.leetcode.SearchInRotatedSorted;
+import com.madhurtoppo.arrays.leetcode.q33search_in_rotated_sorted_array.SearchInRotatedSorted;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
