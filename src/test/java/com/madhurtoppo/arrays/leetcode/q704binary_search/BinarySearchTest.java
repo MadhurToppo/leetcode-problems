@@ -1,4 +1,4 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q704binary_search;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

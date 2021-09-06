@@ -1,6 +1,6 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q217contains_duplicate;
 
-import com.madhurtoppo.arrays.leetcode.ContainsDuplicate;
+import com.madhurtoppo.arrays.leetcode.q217contains_duplicate.ContainsDuplicate;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

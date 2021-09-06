@@ -1,4 +1,4 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q11container_with_most_water;
 
 public class ContainerWithMostWater {
     public int twoPointer(int[] height) {

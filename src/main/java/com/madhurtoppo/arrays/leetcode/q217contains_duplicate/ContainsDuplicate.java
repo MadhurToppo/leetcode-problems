@@ -1,4 +1,4 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q217contains_duplicate;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.madhurtoppo.arrays.leetcode;
+package com.madhurtoppo.arrays.leetcode.q152maximum_product_subarray;
 
 public class MaxProduct {
     public int kadane(int[] nums) {
