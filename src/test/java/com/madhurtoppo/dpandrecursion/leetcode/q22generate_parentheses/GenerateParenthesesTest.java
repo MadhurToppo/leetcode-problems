@@ -29,4 +29,12 @@ class GenerateParenthesesTest {
         expected = new ArrayList<>(Arrays.asList("((()))", "(()())", "(())()", "()(())", "()()()"));
         assertEquals(expected, actual);
     }
+
+    @Test
+    void generateParenthesis1() {
+        n = 2;
+        actual = generateParentheses.generateParenthesis(n);
+        expected = new ArrayList<>(Arrays.asList("(())", "()()"));
+        assertEquals(expected, actual);
+    }
 }

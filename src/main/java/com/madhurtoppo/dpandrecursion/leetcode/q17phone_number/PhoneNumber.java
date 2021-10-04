@@ -7,27 +7,25 @@ public class PhoneNumber {
     public List<String> letterCombinations(String digits) {
         List<String> result = new ArrayList<>();
         if (digits == null || digits.length() == 0) {
-            return  result;
+            return result;
         }
-        final String[] letters = new String[]{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxxyz"};
-        dfs(digits, letters, result, new StringBuilder(), 0);
+        final String[] alphabets = new String[]{"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+        dfs(digits, alphabets, result, new StringBuilder(), 0);
         return result;
     }
 
-    private void dfs(String digits, String[] letters, List<String> result, StringBuilder sb, int index) {
-        if (index == digits.length()) {
+    private void dfs(String digits, String[] alphabets, List<String> result, StringBuilder sb, int i) {
+        if (i == digits.length()) {
             result.add(sb.toString());
             return;
         }
+        char digit = digits.charAt(i);
+        String letters = alphabets[Character.getNumericValue(digit)];
 
-        char ch = digits.charAt(index);
-        String str = letters[Character.getNumericValue(ch)];
-
-        for (char c : str.toCharArray()) {
-            sb.append(c);
-            dfs(digits, letters, result, sb, index + 1);
+        for (char ch : letters.toCharArray()) {
+            sb.append(ch);
+            dfs(digits, alphabets, result, sb, i + 1);
             sb.deleteCharAt(sb.length() - 1);
         }
-
     }
 }

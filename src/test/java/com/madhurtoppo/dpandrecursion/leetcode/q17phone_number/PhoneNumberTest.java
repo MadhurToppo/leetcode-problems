@@ -19,7 +19,6 @@ class PhoneNumberTest {
     @BeforeEach
     void setUp() {
         phoneNumber = new PhoneNumber();
-
     }
 
     @Test

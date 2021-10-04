@@ -1,24 +1,22 @@
 package com.madhurtoppo.dpandrecursion.leetcode.q1143longest_common_subsequence;
 
 public class LongestCommonSubsequence {
-     public int recursive(String text1, String text2) {
-         int i = text1.length() - 1;
-         int j = text2.length() - 1;
-         return lcs(text1, text2, i, j);
-     }
+    public int recursive(String s, String t) {
+        return lcs(s, s.length() - 1, t, t.length() - 1);
+    }
 
-     private int lcs(String s, String t, int i, int j) {
-         if (i < 0 || j < 0) {
-             return 0;
-         }
-         int result;
-         if (s.charAt(i) == t.charAt(j)) {
-             result = 1 + lcs(s, t, i-1, j-1);
-         } else {
-             result = Math.max(lcs(s, t, i-1, j), lcs(s, t, i, j-1));
-         }
-         return result;
-     }
+    private int lcs(String s, int sLength, String t, int tLength) {
+        if (sLength < 0 || tLength < 0) {
+            return 0;
+        }
+        int result;
+        if (s.charAt(sLength) == t.charAt(tLength)) {
+            result = 1 + lcs(s, sLength - 1, t, tLength - 1);
+        } else {
+            result = Math.max(lcs(s, sLength - 1, t, tLength), lcs(s, sLength, t, tLength - 1));
+        }
+        return result;
+    }
 
     public int iterative(String text1, String text2) {
         int n = text1.length();
