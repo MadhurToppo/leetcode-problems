@@ -1,0 +1,17 @@
+
+o
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¤ά½Φ8ξ§α“/
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(ά”¦ϊÿÿÿÿ8ξ§α“/
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(Χ•²8‘ξ§α“/
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(ήÒ—όÿÿÿÿ8‘ξ§α“/
+U	java:S106S"9Replace this use of System.out or System.err by a logger.(ΎƒΞ8’ξ§α“/
+Z	java:S106["9Replace this use of System.out or System.err by a logger.(¤ÿο³ψÿÿÿÿ8’ξ§α“/
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(ήÒ—όÿÿÿÿ8’ξ§α“/
+U	java:S106r"9Replace this use of System.out or System.err by a logger.(‹ƒ³ΐ8“ξ§α“/
+a
+java:S1854z"?Remove this useless assignment to local variable "treeValues2".(κ£‹ξύÿÿÿÿ8”ξ§α“/
+X	java:S125}"<This block of commented-out lines of code should be removed.(φτ™‚8”ξ§α“/
+^	java:S125‰"<This block of commented-out lines of code should be removed.(κ¥Άύÿÿÿÿ8•ξ§α“/
+R
+java:S1481z"0Remove this unused "treeValues2" local variable.(κ£‹ξύÿÿÿÿ8•ξ§α“/
+t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ΉΟΉ8„ξ§α“/

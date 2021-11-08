@@ -1,4 +1,4 @@
-package com.madhurtoppo.heapsandmaps.leetcode;
+package com.madhurtoppo.heapsandmaps.leetcode.q146LRU_cache;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -10,6 +10,7 @@ public class LRUCache extends LinkedHashMap<Integer, Integer> {
         super(capacity, 0.75F, true);
         this.capacity = capacity;
     }
+
 
     public int get(int key) {
         return super.getOrDefault(key, -1);

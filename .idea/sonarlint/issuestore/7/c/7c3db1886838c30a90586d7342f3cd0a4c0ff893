@@ -1,0 +1,9 @@
+
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ΩΑπ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(„όΕ•ϊÿÿÿÿ
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ΩΑπ
+X
+java:S2259+"BA "NullPointerException" could be thrown; "root" is nullable here.(ΰί®Ζ

@@ -1,0 +1,8 @@
+
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ΩΑπ
+O
+java:S1118":Add a private constructor to hide the implicit public one.(Ό™ν?
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ΩΑπ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ζ»Ούÿÿÿÿ

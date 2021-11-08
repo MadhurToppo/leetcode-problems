@@ -1,0 +1,6 @@
+
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Öæ¯íüÿÿÿÿ8¶ìİ¯/
+L
+java:S1066F"/Merge this if statement with the enclosing one.(«Ââú8¸Ãİ¯/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Üòç¸ûÿÿÿÿ

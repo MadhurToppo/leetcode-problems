@@ -1,9 +1,9 @@
-package com.madhurtoppo.heapsandmaps.leetcode;
+package com.madhurtoppo.heapsandmaps.leetcode.q146LRU_cache;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LRUCacheTest {
 
