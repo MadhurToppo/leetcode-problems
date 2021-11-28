@@ -3,7 +3,6 @@ package com.madhurtoppo.dpandrecursion.tccig.q804color_spots;
 public class Question {
 
     private int current;
-
     public String findLargestColorSpot(int cols, int rows, int a[][]) {
         StringBuilder sb = new StringBuilder();
 
@@ -12,12 +11,9 @@ public class Question {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-
                 if (a[i][j] > 0) {
-
                     current = 0;
                     count(i, j, cols, rows, a, a[i][j]);
-
                     if (current > max) {
                         max = current;
                         color = a[i][j] * (-1);

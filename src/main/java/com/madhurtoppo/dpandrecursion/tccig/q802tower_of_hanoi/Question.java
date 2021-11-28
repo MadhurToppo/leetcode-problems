@@ -8,7 +8,6 @@ public class Question {
     private List<String> instructions = new ArrayList<>();
 
     public List<String> moveDisks(int n, char origin, char target, char intermediate) {
-
         if (n <= 0) {
             return instructions;
         }

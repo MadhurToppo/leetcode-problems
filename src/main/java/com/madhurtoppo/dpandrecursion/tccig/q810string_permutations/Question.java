@@ -8,6 +8,10 @@ import java.util.function.BiFunction;
 
 public class Question {
 
+    public List<String> permute(String str) {
+        return permute("", str.length(), charactersMap(str));
+    }
+
     private Map<Character, Integer> charactersMap(String str) {
         Map<Character, Integer> characters = new HashMap<>();
         BiFunction<Character, Integer, Integer> count = (k, v) -> ((v == null) ? 1 : ++v);
@@ -15,10 +19,6 @@ public class Question {
             characters.compute(c, count);
         }
         return characters;
-    }
-
-    public List<String> permute(String str) {
-        return permute("", str.length(), charactersMap(str));
     }
 
     private List<String> permute(String prefix, int strLength, Map<Character, Integer> characters) {

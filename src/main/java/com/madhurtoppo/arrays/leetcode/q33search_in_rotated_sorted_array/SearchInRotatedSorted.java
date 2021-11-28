@@ -37,7 +37,6 @@ public class SearchInRotatedSorted {
                 left = mid + 1;
             }
         }
-
         return -1;
     }
 }
