@@ -1,4 +1,4 @@
-# Leetcode
+# Leetcode Problems
 Leetcode Problems with Soultions in Java.
 The project also contains Unit Tests for the problems in JUnit5.
 
