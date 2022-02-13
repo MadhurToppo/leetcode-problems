@@ -17,15 +17,15 @@ public class TwoSum {
     }
 
     public int[] onePass(int[] nums, int target) {
-        Map<Integer, Integer> hm = new HashMap<>();
+        Map<Integer, Integer> indicesByNums = new HashMap<>();
 
-        for (var i = 0; i < nums.length; i++) {
-            var complement = target - nums[i];
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
 
-            if (!hm.containsKey(complement)) {
-                hm.put(nums[i], i);
+            if (indicesByNums.containsKey(complement)) {
+                return new int[]{indicesByNums.get(complement), i};
             } else {
-                return new int[]{hm.get(complement), i};
+                indicesByNums.put(nums[i], i);
             }
         }
 
