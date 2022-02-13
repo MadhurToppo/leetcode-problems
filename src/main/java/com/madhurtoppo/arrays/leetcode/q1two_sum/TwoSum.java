@@ -3,6 +3,9 @@ package com.madhurtoppo.arrays.leetcode.q1two_sum;
 import java.util.HashMap;
 import java.util.Map;
 
+/***
+ * [1](https://leetcode.com/problems/two-sum/)
+ */
 public class TwoSum {
 
     public int[] brute(int[] nums, int target) {

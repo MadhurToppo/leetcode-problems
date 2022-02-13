@@ -8,23 +8,25 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 class TwoSumTest {
 
     TwoSum twoSum;
-    int[] actual;
-    int[] expected;
+    int[] nums;
+    int target;
 
     @BeforeEach
     void setUp() {
         twoSum = new TwoSum();
-        actual = twoSum.brute(new int[]{2,7,8,11}, 9);
-        expected = new int[]{0, 1};
     }
 
     @Test
     void brute() {
-        assertArrayEquals(expected, actual);
+        nums = new int[]{2,7,8,11};
+        target = 9;
+        assertArrayEquals(new int[]{0, 1}, twoSum.brute(nums, target));
     }
 
     @Test
     void onePass() {
-        assertArrayEquals(expected, actual);
+        nums = new int[]{2,7,8,11};
+        target = 9;
+        assertArrayEquals(new int[]{0, 1}, twoSum.onePass(nums, target));
     }
 }
